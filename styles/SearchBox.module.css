@@ -1,0 +1,12 @@
+.searchBox {
+    position: absolute;
+    z-index: 7;
+    /* left: 50%; */
+    /* top: 48px; */
+    /* transform: translateX(-50%); */
+    width: 70%;
+    max-width: 500px;
+
+    /* background-color: white; */
+
+}

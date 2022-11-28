@@ -1,0 +1,60 @@
+.container {
+    position: fixed; /* btw z-index only applies to positioned elements */
+    z-index: 10; /* Over main */
+    height: 70px;
+    width: 100%;
+    background-color:  #68CBF6;
+
+    display: flex;
+    justify-content: center;
+}
+
+.navbarContainer {
+    padding: 0 1rem;
+    max-width: 1280px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    width: 162px;
+    @apply sm:mr-8;
+    cursor: pointer;
+}
+.item {
+    cursor: pointer;
+    color: white;
+    margin-left: 2rem;
+}
+
+.toggleButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toggleButton:focus {
+    outline: none;
+}
+  
+.toggleButtonLine {
+    width: 30px;
+    height: 2px;
+    background: white;
+}
+    
+@media (min-width: 1024px) {
+    .navbarContainer {
+        padding: 0 4rem;
+    }
+}

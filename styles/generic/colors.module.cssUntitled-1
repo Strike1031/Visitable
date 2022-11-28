@@ -1,0 +1,3 @@
+.errorColor {
+    color: rgb(177, 32, 32);
+}

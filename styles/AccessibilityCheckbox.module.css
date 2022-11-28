@@ -1,0 +1,15 @@
+.disabilityItemCard {
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.disabilityItemContent {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.disabilityLabel {
+    padding: 0 23px;
+}

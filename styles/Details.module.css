@@ -1,0 +1,50 @@
+.userDetailsSectionAndPic {
+    display: flex;
+    justify-content: space-between;
+}
+
+.userDetailsSectionContainer {
+    flex-grow: 1;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+
+.userDetailsSectionHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.userDetailsSectionHeading h2 {
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+.editButtonText {
+    font-size: inherit;
+    padding-right: 6px;
+}
+
+.basicInfoAndPicContainer {
+    display: flex;
+    flex-flow: row wrap-reverse; /* Profile picture wraps above info */
+    justify-content: space-between;
+    align-items: flex-end; /* To make it align top with wrap-reverse */
+}
+
+.profilePicContainer {
+    padding: 24px 32px;
+    width: 280px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.profilePicContainer h3 {
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.profilePic {
+    width: 280px;
+    height: 280px;
+}

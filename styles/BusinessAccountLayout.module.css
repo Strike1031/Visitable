@@ -1,0 +1,49 @@
+.all {
+    background-color: rgb(245, 248, 254);
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.main {
+    background-color: rgb(245, 248, 254);
+    /* padding: 32px 26px; */
+    position: relative; /* positioning applies to relative elements but not static (default) */
+    padding: 1.6rem 1.3rem;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    .main {
+        left: 280px; /* Offset by width of menubar */
+        width: calc(100% - 280px); /* Fill remaining width of screen after menubar*/
+        padding: 2rem 3rem;
+
+    }
+}
+
+.userAccPageTitle {
+    font-size: 32px;
+    margin-bottom: 25px;
+    /* border-bottom: 1px;
+    border-style: solid; */
+}
+
+
+.backdrop {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.4s ease-out;
+    z-index: 1;
+}
+
+.backdropActive {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.3);
+}

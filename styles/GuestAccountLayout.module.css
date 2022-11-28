@@ -1,0 +1,62 @@
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.main-wrapper {
+    background-color: rgb(245, 248, 254);
+    min-height: 100%;
+    width: 100%;
+    max-width: 1280px;
+    /* z-index only applies to positioned elements */
+    position: relative; 
+    /* Under nav bar */
+    z-index: 5;
+    top: 70px; /* Offset by height of navbar */
+    display: flex;
+    align-items: flex-start;
+}
+
+.main {
+    padding: 1rem 1.3rem;
+    /* position: relative; positioning only applies to positioned elements */
+    /* left: 280px; Offset by width of menubar */
+    flex-grow: 1;
+    /* width: calc(100% - 280px); Fill remaining width of screen after menubar */
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+@media (min-width: 1024px) {
+    .main-wrapper {
+        padding: 20px 40px;
+    }
+    .main {
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-left: 24px;
+        padding: 24px 26px;    
+    }
+}
+
+.backdrop {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.4s ease-out;
+}
+
+.backdropActive {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.userAccPageTitle {
+    font-size: 32px;
+    margin-bottom: 25px;
+    /* border-bottom: 1px;
+    border-style: solid; */
+}

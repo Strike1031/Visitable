@@ -1,0 +1,144 @@
+.join-today-container img {
+  width: 100%;
+}
+.join-today-container .p1 {
+  font-size: 46px;
+  font-weight: bold;
+}
+.join-today-container .p2 {
+  font-size: 24px;
+}
+.join-today-container .p3 {
+  font-size: 18px;
+}
+
+.button {
+  /* height: 2.7rem;  This is implicit from padding + font-size */
+  border-radius: 1.35rem;
+  padding: 0.675rem 1.35rem;
+  font-size: 0.9rem;
+  font-weight: 800;
+  background-color: #301d65;
+  color: white;
+  transition: all 0.4s;
+  margin: 1.8rem 1.2rem;
+  align-self: center;
+}
+@media (min-width: 768px) {
+  .button {
+    height: 3.6rem;
+    border-radius: 1.8rem;
+    padding: 0.9rem 1.8rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #8b6fb6;
+  color: white;
+  transition: all 0.4s;
+  -webkit-box-shadow: 0px 0px 35px -14px #301d65;
+  box-shadow: 0px 0px 35px -14px #301d65;
+}
+
+.search-item {
+  border-radius: 5px;
+  padding: 3px;
+  cursor: pointer;
+  width: 233px;
+  height: 200px;
+  text-align: center;
+}
+
+.search-item:hover {
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  position: relative;
+  top: -3px;
+}
+.search-item img {
+  width: 80px;
+  height: 80px;
+}
+.search-item .p1 {
+  font-size: 20px;
+  line-height: 150%;
+  margin: 0;
+}
+.search-item .p2 {
+  font-size: 14px;
+  color: #777777;
+}
+
+/* section */
+.container {
+  @apply mx-auto px-4 md:px-8 lg:px-16 mt-16 md:mt-24 lg:mt-32 mb-16 md:mb-24 lg:mb-32 max-w-screen-xl;
+}
+
+.how-it-works .p1 {
+  font-size: 36px;
+  margin: 0;
+}
+.how-it-works .p2 {
+  font-size: 14px;
+  color: #777777;
+}
+
+.how-it-works img {
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* stay-tuned container */
+.stay-tuned {
+  padding: 0 50px;
+}
+.enquiry-division {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+  height: 2px;
+}
+
+.stay-tuned .div1 {
+  text-align: center;
+}
+.stay-tuned .p1 {
+  font-size: 36px;
+}
+.stay-tuned .p2 {
+  font-size: 14px;
+  color: #777777;
+}
+.stay-tuned .div2 {
+  margin: 20px 0;
+}
+.stay-tuned .enquiry-input {
+  display: block;
+  margin-top: 14px;
+  height: 50px;
+  width: 100%;
+  padding: 0px 15px;
+  border-radius: 3px;
+  border: none;
+  font-size: 14px;
+  background-color: white;
+  color: rgb(73, 80, 87);
+}
+.stay-tuned .enquiry-text-area {
+  width: 100%;
+  height: 178px;
+  margin-top: 14px;
+  resize: none;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  background-color: white;
+  color: rgb(73, 80, 87);
+}
+.center {
+  display: block;
+  margin: 0 auto;
+}

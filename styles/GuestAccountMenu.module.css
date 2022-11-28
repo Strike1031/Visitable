@@ -1,0 +1,52 @@
+.container {
+    background-color: rgb(162, 131, 203);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    z-index: 8; /* Behind navbar */
+    padding: 70px 1rem 1rem;
+    transform: translateX(-100%);
+}
+@media (min-width: 1024px) {
+    .container {
+        border-radius: 10px;
+        position: relative;
+        z-index: inherit;
+        width: 320px;
+        min-width: 320px;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        transform: translateX(0);
+        height: auto;
+        box-shadow: 0 0 0 0 #ffffff;
+    }
+}
+.containerOpen {
+    box-shadow: 0px 0px 27px -12px #000000;
+    transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1);
+    transform: translateX(0)
+}
+
+.menuItem {
+    padding: 9px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menuItemTitle {
+    font-size: large;
+    color: white;
+}
+.menuItemIcon {
+    color: white;
+    margin-right: 20px;
+}

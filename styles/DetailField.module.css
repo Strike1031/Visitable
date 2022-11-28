@@ -1,0 +1,18 @@
+.fieldContainer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 18px 0px 12px;
+}
+
+.fieldLabel {
+    width: 260px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.fieldValue {
+    flex-grow: 1;
+    min-width: 100px
+}

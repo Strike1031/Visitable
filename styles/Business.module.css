@@ -1,0 +1,256 @@
+.bg-color-white {
+    background-color: white;
+}
+.bg-color-primary {
+    background-color:  #68CBF6;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-gray {
+    color: rgb(128, 128, 128)
+}
+
+.content-center-box {
+    display: flex;
+    justify-content: center;
+}
+
+.primary-button {
+    height: 48px;
+    width: 135px;
+    border-radius: 24px;
+    font-size: 15px;
+    background-color: white;
+    color: rgb(73, 80, 87);
+    border-color: #68CBF6;
+    border-style: solid;
+    transition: all 0.4s;
+}
+.primary-button:hover {
+    cursor: pointer;
+    background-color: #68CBF6;
+    color: white;
+    transition: all 0.4s;
+}
+
+/* Main Component */
+.main-container {
+    width: 100%;
+    max-width: 1280px;
+    padding: 4rem 1.5rem;
+    background-color: transparent;
+}
+
+.main-text-1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+.main-text-2 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+.main-text-3 {
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.3;
+    margin-bottom: 16px;
+}
+
+@media (min-width: 1024px) {
+    .main-container {
+        padding: 4rem 8rem;
+    }
+    .main-text-1 {
+        font-size: 3rem;
+    }    
+    .main-text-2 {
+        font-size: 1.8rem;
+    }    
+    .main-text-3 {
+        font-size: 1.3rem;
+    }    
+}
+
+/* PricingPlans Component */
+.plan-text {
+    color: rgb(28, 20, 78);
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.1;
+    text-align: center;
+    padding: 20px 0;
+}
+.name-text {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: medium;
+    color: rgb(28, 20, 78);
+    line-height: 1.2;
+}
+.money-text {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(28, 20, 78);
+    line-height: 1.4;
+}
+.item-text {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(28, 20, 78);
+    line-height: 1.4;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+.plan-desc-text {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(28, 20, 78);
+    line-height: 1.4;
+    text-align: center;
+}
+
+.plans-container {
+    padding-top: 16px;
+    padding-bottom: 52px;
+    display: flex;
+    justify-content: center;
+}
+
+.plan-box {
+    height: 510px;
+    width: 300px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+}
+
+.text-element-container {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.plan-division {
+    width: 150px;
+    height: 2px;
+    background-color: rgb(170, 102, 204);
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.check-icon {
+    width: 25px;
+    height: 30px;
+    padding-right: 9px;
+    color: rgb(55, 55, 55);
+}
+
+.plan-button {
+    height: 43px;
+    width: 150px;
+    border-radius: 20px;
+    font-family: Poppins;
+    font-size: 15px;
+    line-height: 1px;
+    background-color: white;
+    color: rgb(73, 80, 87);
+    border: none;
+}
+.plan-button:hover {
+    cursor: pointer;
+}
+
+/* Enquiry Component */
+
+.enquiry-text-2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: medium;
+    color: rgb(119, 119, 119);
+    text-align: center;
+    line-height: 1.5;
+    height: 52px;
+    margin-top: 14px;
+}
+.enquiry-text-3 {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: medium;
+    color: rgb(128, 128, 128);
+    line-height: 1.4;
+    margin-top: 13px;
+}
+
+.enquiry-division {
+    width: 70px;
+    height: 2px;
+}
+
+.enquiry-input {
+    border: none;
+    height: 50px;
+    width: 100%;
+    padding: 0px 15px;
+    outline: none;
+    font-size: 14px;
+    background-color: white;
+    color: rgb(73, 80, 87);
+    border-radius: 3px;
+    margin-top: 14px;
+}
+
+.enquiry-text-area {
+    border: none;
+    height: 190px;
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    font-size: 14px;
+    background-color: white;
+    color: rgb(73, 80, 87);
+    border-radius: 3px;
+    margin-top: 14px;
+    resize: none;
+}
+
+.enquiry-button {
+    height: 40px;
+    width: 162px;
+    border-radius: 20px;
+    font-family: Poppins;
+    font-size: 15px;
+    background-color: white;
+    color: rgb(68, 68, 68);
+    border-color: #68CBF6;
+    border-style: solid;
+    transition: all 0.4s;
+}
+.enquiry-button:hover {
+    cursor: pointer;
+    background-color: #68CBF6;
+    color: white;
+    transition: all 0.4s;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem 2rem 3rem;
+}

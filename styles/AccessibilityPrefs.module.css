@@ -1,0 +1,23 @@
+.userAccessibilitiesSectionContainer {
+    /* flex-grow: 1; */
+    max-width: 700px;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.userAccessibilitiesSectionHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.userAccessibilitiesSectionHeading h2 {
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+.editButtonText {
+    font-size: inherit;
+    padding-right: 6px;
+}

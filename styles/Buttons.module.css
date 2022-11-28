@@ -1,0 +1,84 @@
+.venueCardButton {
+    background-color: #8b4cbe;
+    color: white;
+    margin-left: 0.4rem;
+    height: 2.8rem;
+    padding: 0.7rem;
+    font-weight: bold;
+    border-radius: 0.4rem;
+}
+
+.venueCardButton:hover {
+    background-color: #aa6ddd;
+}
+
+.toolbarButton {
+    background-color: #dadada;
+    color: rgb(0, 0, 0);
+    margin-left: 0.4rem;
+    height: 2.8rem;
+    padding: 0.7rem;
+    font-weight: bold;
+    border-radius: 0.4rem;
+}
+
+.toolbarButton:hover {
+    background-color: #e2e2e2;
+}
+
+.primaryButton {
+    background-color: #8b4cbe;
+    color: white;
+    margin: 0.4rem;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+}
+
+.primaryButton:hover {
+    background-color: #aa6ddd;
+}
+
+.secondaryButton {
+    background-color: #e2e2e2;
+    color: black;
+    margin: 0.4rem;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+}
+
+.secondaryButton:hover {
+    background-color: #e6e2dc;
+}
+
+
+.primaryCardAction {
+    background: linear-gradient(
+        54deg,
+        rgba(121, 71, 186, 1) 0%,
+        rgba(174, 126, 235, 1) 100%
+    );
+    color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+
+.primaryCardAction:hover {
+    background-color: #aa6ddd;
+}
+
+.secondaryCardAction {
+    background: linear-gradient(
+        54deg,
+        rgba(218, 218, 218, 1) 0%,
+        rgba(231, 224, 209, 1) 100%
+    );
+    color: black;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+
+.secondaryCardAction:hover {
+    background-color: #aa6ddd;
+}
