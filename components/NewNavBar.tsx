@@ -140,12 +140,12 @@ export default function NewNavBar(props: propTypes) {
     return (
       <div className={styles.container}>
         <nav className={styles.navbarContainer}>
-          {/* <img
+          <img
             onClick={() => router.push('/')}
             className={styles.logo}
             src="/logo.png"
             alt="Logo"
-          /> */}
+          />
           <div className="hidden sm:flex sm:justify-between sm:items-center">
             <div className={styles.item} onClick={() => router.push('/')}>
               Home
