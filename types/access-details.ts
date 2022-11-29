@@ -13,59 +13,59 @@ export enum AccessibilityNeeds {
 export const accessDetails: AccessDetailsType = {
   '0': {
     display: 'Clear travel path (flat and un-obstructed) through entrance',
-    queryGuest: 'Will you need a clear travel path (flat and un-obstructed) through an entrance?',
-    queryBusiness: 'Is there a clear travel path (flat and un-obstructed) through an entrance?',
+    queryGuest: ' Do you offer fully remote work from home 5 days a week?',
+    queryBusiness: 'Your company accessibility features ',
   },
   '1': {
     display: 'Automated door',
-    queryGuest: 'Would you prefer the venue to have an automated door?',
-    queryBusiness: 'Is there an automated door?',
+    queryGuest: 'Does your workspace have level entry? ',
+    queryBusiness: 'Help us understand more about your company accessibility offerings.',
   },
   '2': {
     display:
       'Alternative travel path if there are stairs to a key public area (lift, stairlift, ramp)',
-    queryGuest: 'Are you comfortable using chairlifts or lifts at the venue if required?',
+    queryGuest: 'Are there any stairs inside your workspace that restrict total access to an employee?',
     queryBusiness:
-      'Is there an alternative travel path if there are stairs to a key public area (lift, stairlift, ramp)?',
+      'Needs changing to …',
   },
   '3': {
     display: 'Accessible bathroom',
-    queryGuest: 'Does the venue need to have an accessible bathroom?',
-    queryBusiness: 'Is there an accessible bathroom?',
+    queryGuest: '  Does your workspace (or building) have at least one accessible bathroom? ',
+    queryBusiness: 'Accessibility at your workplace',
   },
   '4': {
     display: 'Clear floor space for a wheelchair, pram or walking frame to turn',
     queryGuest:
-      'Do you require enough clear floor space to turn around a wheelchair, pram or walking frame in the venue?',
+      'Is there enough room throughout the office and between desks to manoeuvre a wheelchair or walking frame?',
     queryBusiness:
-      'Is there enough clear floor space for a wheelchair, pram or walking frame to turn?',
+      'Help us understand more about what it’s like to get around your company.',
   },
   '5': {
     display: 'Outdoor seating',
-    queryGuest: 'Would you prefer venues with outdoor seating?',
+    queryGuest: 'Can your company provide specialist equipment if required (monitors, desks, keyboards etc) ?',
     queryBusiness: 'Is there outdoor seating?',
   },
   '6': {
     display: 'Low/average height tables',
-    queryGuest: 'Do you require the venue to have both low and high tables?',
+    queryGuest: 'Is there accessible parking spaces within 50m of the office?',
     queryBusiness: 'Are there low/average height tables?',
   },
   '7': {
     display: 'Accessible parking within 50 metres',
-    queryGuest: 'Would you prefer accessible parking within 50 metres of the venue?',
+    queryGuest: 'Does your workspace have tactile wayfinding such as braille or raised lettering throughout the building?',
     queryBusiness: 'Is there accessible parking within 50 metres of the venue?',
   },
   '8': {
     display:
       'Tactile wayfinding for people with vision impairment, such as raised lettering or braille',
     queryGuest:
-      'Do you require venues to have tactile wayfinding provisions such as braille menus or raised lettering?',
+      'Do you have a quiet space / zone in your workspace?',
     queryBusiness:
       'Is there tactile wayfinding for people with vision impairment, such as raised lettering or braille?',
   },
   '9': {
     display: 'Quiet spaces',
-    queryGuest: 'Would you prefer a quiter space at the venue?',
+    queryGuest: 'Has your company hired people with personal accessibility expectations before?',
     queryBusiness:
       'Do you have a quiet space (quieter for people who are hearing impaired or people with autism)?',
   },

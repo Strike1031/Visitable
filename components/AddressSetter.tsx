@@ -194,7 +194,7 @@ export default function AddressSetter({ locationData, setLocationData, disabled 
     return (
       <div>
         <div className='mb-4 text-sm lg:text-base'>
-          Search for your venue's address or click on the map to place a marker at your venue.
+          Search for your company's address or click on the map to place a marker at company venue.
         </div>
         <div>
           <div className={searchBoxStyles.searchBox}>

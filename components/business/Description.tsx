@@ -12,7 +12,7 @@ export const Description: React.FC<DescProps> = () => {
     <div className="w-full flex justify-center">
       <div className="mx-4 my-6 lg:mx-8 lg:my-12 max-w-screen-md w-auto">
         <div className="text-gray-800 text-center font-medium text-2xl lg:text-4xl mb-4">
-          Inclusion is not a choice - it is a right
+          {/* Inclusion is not a choice - it is a right */}
         </div>
         <div className="text-gray-500 font-extralight text-center text-base lg:text-lg">
           Australia has legislation to support the full realisation of human rights and fundamental

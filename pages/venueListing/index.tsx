@@ -125,7 +125,7 @@ export default function VenueListing(props: propTypes) {
               </div>
               <div className={styles.accContainer}>
                 <div className={styles.accDetails}>
-                  Is there accessible parking within 50m of the venue?
+                  Is there accessible parking within 50m of the company?
                 </div>
                 <div
                   className={styles.checkbox}
@@ -133,7 +133,7 @@ export default function VenueListing(props: propTypes) {
                 />
               </div>
               <div className={styles.accContainer}>
-                <div className={styles.accDetails}>Does your venue have outside seating?</div>
+                <div className={styles.accDetails}>Does your company have outside seating?</div>
                 <div
                   className={styles.checkbox}
                   style={{ backgroundImage: 'url(/utility-icons/check.png)' }}

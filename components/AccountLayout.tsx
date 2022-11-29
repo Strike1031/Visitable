@@ -44,20 +44,14 @@ const guestMenuItems: guestMenuItemType[] = [
   {
     pagePath: '/user-account/venues',
     pageName: 'venues',
-    menuItemTitle: 'My Venues',
+    menuItemTitle: 'Recommended Roles',
     menuItemIcon: <StorefrontIcon />,
   },
   {
     pagePath: '/user-account/reviews',
     pageName: 'reviews',
-    menuItemTitle: 'My Reviews',
+    menuItemTitle: 'Recruitment Partners',
     menuItemIcon: <RateReviewIcon />,
-  },
-  {
-    pagePath: '/user-account/messages',
-    pageName: 'messages',
-    menuItemTitle: 'Messages',
-    menuItemIcon: <MailIcon />,
   },
   {
     pagePath: '/user-account/settings',

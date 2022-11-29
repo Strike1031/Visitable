@@ -215,7 +215,7 @@ export default function Page() {
     } else if (state == 'login') {
       return (
         <div className={loginStyles.loginCard}>
-          <h2 style={{ fontSize: 'xx-large' }}>{forgot ? 'Reset Password' : 'Business Log In'}</h2>
+          <h2 style={{ fontSize: 'xx-large' }}>{forgot ? 'Reset Password' : 'Log in to Tickable'}</h2>
           <input
             className='h-10 w-full p-3 mt-3 bg-white rounded'
             name='user-email'
@@ -298,7 +298,7 @@ export default function Page() {
                   backgroundImage: `url(/Office-space-pic.jpeg)`,
                 }}
                 />
-              <div className={loginStyles.loginImageText}>Find new talent everyday.</div>
+              <div className={loginStyles.loginImageText}>Help make the world a more accessible place.</div>
             </div>
           </div>
         </div>

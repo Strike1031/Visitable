@@ -1,7 +1,7 @@
 export enum VenueSpecialtyEnum {
-  restaurant = 'Restaurant',
-  cafe = 'Cafe',
-  bar = 'Bar',
+  restaurant = 'Office',
+  cafe = 'Retail ',
+  bar = 'Hospitality',
   // drink = 'Drink',
   // fastFood = 'Fast Food',
   // food = 'Food',
@@ -20,16 +20,16 @@ type VenuesSpecialtiesDetailsType = {
 
 export const venueSpecialtiesDetails: VenuesSpecialtiesDetailsType = {
   restaurant: {
-    categoryLabel: "Restaurants",
-    selectLabel: "Restaurant"
+    categoryLabel: "Office",
+    selectLabel: "Office"
   },
   cafe: {
-    categoryLabel: "Cafés",
-    selectLabel: "Café"
+    categoryLabel: "Retail",
+    selectLabel: "Retail"
   },
   bar: {
-    categoryLabel: "Bars",
-    selectLabel: "Bar"
+    categoryLabel: "Hospitality",
+    selectLabel: "Hospitality"
   },
 }
 

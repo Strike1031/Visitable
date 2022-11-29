@@ -120,15 +120,15 @@ export default function CreateVenueForm(props: propTypes) {
       case 0:
         return (
           <Fragment>
-            <h1 style={{ fontSize: 'x-large' }}>Your venue's details</h1>
+            <h1 style={{ fontSize: 'x-large' }}>Your Company's details</h1>
             <DetailField
-              fieldLabel="Venue name"
+              fieldLabel="Compnay name"
               fieldValue={name}
               editStatus={!loading}
               handleChange={(e: any) => setName(e.target.value)}
             />
             <DetailField
-              fieldLabel="Opening hours"
+              fieldLabel="Office Hours"
               fieldValue={hours}
               editStatus={!loading}
               multiline={true}
@@ -154,7 +154,7 @@ export default function CreateVenueForm(props: propTypes) {
               handleChange={(e: any) => setDescription(e.target.value)}
             />
             <div className="flex flex-wrap">
-              <div style={{ width: '260px' }}>Categories</div>
+              <div style={{ width: '260px' }}>Type of business</div>
               <div style={{ minWidth: '260px' }}>
                 {Object.entries(venueSpecialtiesDetails).map(([key, specialtyDetail]) => (
                   <div className="flex items-center">
@@ -175,7 +175,7 @@ export default function CreateVenueForm(props: propTypes) {
       case 1:
         return (
           <>
-            <h1 style={{ fontSize: 'x-large' }}>Your venue's location</h1>
+            <h1 style={{ fontSize: 'x-large' }}>Your company's location</h1>
             <AddressSetter
               locationData={locationData}
               setLocationData={setLocationData}
@@ -186,8 +186,8 @@ export default function CreateVenueForm(props: propTypes) {
       case 2:
         return (
           <Fragment>
-            <h1 style={{ fontSize: 'x-large' }}>Your venue's accessibility features</h1>
-            <p>Help us understand more about your venue's accessibility offerings.</p>
+            <h1 style={{ fontSize: 'x-large' }}>Your company's accessibility features</h1>
+            <p>Help us understand more about your company's accessibility offerings.</p>
             <div className="flex flex-col items-center w-full">
               <AccessSetter
                 accessSelections={accessFeatures}
@@ -202,7 +202,7 @@ export default function CreateVenueForm(props: propTypes) {
         return (
           <Fragment>
             <h1 style={{ fontSize: 'x-large' }}>Upload a cover photo</h1>
-            <p>Give the best first impression of your venue.</p>
+            <p>Give the best first impression of your company.</p>
             <div className="mt-4 flex flex-col w-full max-w-2xl">
               {coverPhotoFile !== null ? (
                 <Fragment>
@@ -334,8 +334,8 @@ export default function CreateVenueForm(props: propTypes) {
           <div className={stepperStyles.processContainer}>
             <div className={stepperStyles.stepperContainer}>
               <div className={stepperStyles.stepperTitleContainer}>
-                <h1 style={{ fontSize: 'xx-large' }}>Create a Venue</h1>
-                <p>Let's set up a Visitable listing for your new venue.</p>
+                <h1 style={{ fontSize: 'xx-large' }}>Create a Workspace Page</h1>
+                <p>Let’s set up a Tickable page for your company</p>
               </div>
               <Stepper classes={{ root: stepperStyles.stepper }} activeStep={activeStep}>
                 {steps.map((label) => (

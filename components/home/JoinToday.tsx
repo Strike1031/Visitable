@@ -14,13 +14,15 @@ export const JoinToday: React.FC<JoinTodayProps> = () => {
       <div className={styles['container']}>
         <Grid container spacing={3} style={{ justifyContent: 'center' }}>
           <Grid item sm={12} md={6} className="flex-col flex">
-            <p className="text-2xl md:text-4xl md:mb-2 lg:text-5xl">Evolve your job search</p>
-            <p className="text-lg md:text-2xl">Use matching technology to find companies you’ll love to work with.</p>
+            <p className="text-2xl md:text-4xl md:mb-2 lg:text-5xl">Matching Technology</p>
+            <p className="text-sm md:text-2xl">
+            Your Social Inclusion Platform
+            </p>
             <p className="text-sm md:text-lg">
-              Visitable matches engineers and developers with great companies based on what matters most to you, not just salary and location.
+            Tickable helps share your workspace accessibility to people living with disability searching for employment opportunities.
             </p>
             <button className={styles['button']} onClick={() => router.push('/signup')}>
-              Find Jobs
+              Join Today
             </button>
             {/* <button className={styles['button']}>Read More</button> */}
           </Grid>

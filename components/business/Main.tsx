@@ -14,11 +14,11 @@ export const Main: React.FC<MainProps> = () => {
         <div className={cx('main-container')}>
           <div className={cx('main-text-1', 'text-white')}>Add Your Business</div>
           <div className={cx('main-text-2', 'text-white')}>
-            Support change for people with disability and older people
+            Create positive change and help make a more inclusive Australia.
           </div>
           <div className={cx('main-text-3', 'text-white')}>
-            Adding your business to Visitable can change the world for people in ways you’d never
-            expect
+            Open up your business to a new potential workforce by sharing opportunities and listing
+            your workspace accessibility.
           </div>
           {/* <div>
             <button

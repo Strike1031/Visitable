@@ -9,7 +9,7 @@ export const StartSearch: React.FC<StartSearchProps> = () => {
   return (
     <section className="justify-center">
       <div className={styles["container"]}>
-      <p className="text-center mb-2 md:mb-4 text-2xl md:text-4xl lg:text-5xl">Start your search today</p>
+      <p className="text-center mb-2 md:mb-4 text-2xl md:text-4xl lg:text-5xl">How it works</p>
       {/* <Grid className={styles['start-search-container']} container spacing={3}>
         {searchItems.map((item, i) => (
           <Grid item xs={12} sm={6} md={4} key={i}>
@@ -45,17 +45,17 @@ const SearchItem: React.FC<SearchItemProps> = ({ title, description, iconPath })
 
 const searchItems: SearchItemProps[] = [
   {
-    title: 'Java',
+    title: 'Bars',
     description: '',
     iconPath: 'Java.svg',
   },
   {
-    title: 'Python',
+    title: 'Restaurants',
     description: '',
     iconPath: 'Python.svg',
   },
   {
-    title: 'JavaScript',
+    title: 'Cafes',
     description: '',
     iconPath: 'JavaScript.svg',
   },

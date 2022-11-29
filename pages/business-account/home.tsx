@@ -54,17 +54,17 @@ export default function BusinessHome() {
             <div
               className="w-full lg:w-1/2 h-52 bg-cover"
               style={{
-                backgroundImage: `url(/garage.jpg)`,
+                backgroundImage: "url('https://coworkinghigienopolis.com/wp-content/uploads/2020/03/vantagens-do-coworking-para-freelancers.jpg')",
               }}
             />
             <div className="lg:w-1/2 mt-5 lg:ml-8 lg:mt-0 flex flex-col justify-between">
               <div className="flex flex-col">
-                <div className="text-3xl">{'Our venues'}</div>
+                <div className="text-3xl">{'Dashboard'}</div>
                 <div className="mt-2 text-base">
-                  {'Create a public listing for your venue.'}
+                  {'This is your home screen.   '}
                 </div>
                 <div className="mt-2 text-base">
-                  {'Edit your existing venue listings.'}
+                  {'From here you can edit company details, find local recruitment partners and build social links to share online.'}
                 </div>
               </div>
               <div className="mt-12 flex flex-col md:flex-row md:justify-end">

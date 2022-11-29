@@ -10,7 +10,7 @@ export default function UserMessages(props: PropTypes) {
   const router = useRouter()
 
   return (
-    <GuestAccountLayout pageName={"messages"} guestName={guestCx?.data?.firstName ?? ""}>
+    <GuestAccountLayout pageName={'messages'} guestName={guestCx?.data?.firstName ?? ''}>
       <div>Welcome back!</div>
     </GuestAccountLayout>
   )

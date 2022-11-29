@@ -1,5 +1,6 @@
 .container {
-    background-color: rgb(162, 131, 203);
+    /* background-color: rgb(162, 131, 203); */
+    background-color: #68CBF6;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;

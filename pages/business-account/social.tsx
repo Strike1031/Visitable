@@ -92,17 +92,16 @@ export default function BusinessSocial(props: PropTypes) {
         <BusinessAccountLayout pageName={'social'} businessName={businessCx?.data?.name ?? ''}>
           <div className='lg:px-8 flex flex-col'>
             <div className='text-center text-xl text-bold'>
-              Share your Visitable page on social media
+            This is where you can find your Tickable link to use in job adverts, social media or your website.
             </div>
             <div className='text-center'>
-              Help your customers find out about your venues accessibility information quicker with a
-              social media link.
+            Once found by a Tickable user, they press this link to be taken to your companies Tickable page where they have their details matched to yours. It’s that easy.
             </div>
             <div className='text-center'>
-              Use a unique URL for each of your venues and add the Visitable icon to your websites
-              social media links.
+            Below is a unique URL for each of your workspaces. This is what you’ll need to copy into your Link.
+
             </div>
-            <div className='text-center mt-4'>Icons (right click and save the image as...)</div>
+            <div className='text-center mt-4'>Click on the File Image below or copy and paste the URL</div>
             <div className='flex flex-row self-center my-5 bg-gray-200 px-4 py-4 rounded space-x-6'>
               <img className='h-10 w-10' src='/Visitable-icon-inverted.png' alt='Logo' />
               <img className='h-10 w-10 ml-4' src='/icon_bw.png' alt='Logo' />

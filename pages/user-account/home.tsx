@@ -47,14 +47,14 @@ function UserHome() {
             <div
               className="w-full lg:w-1/2 h-52 bg-cover"
               style={{
-                backgroundImage: `url(/appetiser.jpg)`,
+                backgroundImage: `url("https://images.rawpixel.com/image_800/czNmcy1wcml2…zaXRlX2NvbnRlbnQvbHIvay00Ni1jaGltLTE3MTIuanBn.jpg")`,
               }}
             />
             <div className="lg:w-1/2 mt-5 lg:ml-8 lg:mt-0 flex flex-col justify-between">
               <div className="flex flex-col">
-                <div className="text-3xl">{'Discover'}</div>
+                <div className="text-3xl">{'Dashboard'}</div>
                 <div className="mt-2 text-base">
-                  {'Search for venues from a selection of the finest restaurants, cafés and bars.'}
+                  {'This is your home screen to manage your personal details and accessibility preferences. This is where we will also send you recommendations that we think could be perfect opportunity matches.'}
                 </div>
                 <div className="mt-2 text-base">
                   {'Get personalised recommendations that suit your accessibility preferences.'}
@@ -70,7 +70,7 @@ function UserHome() {
                     router.push('/venues')
                   }}
                 >
-                  Discover new venues
+                  Discover New Opportunities 
                 </button>
               </div>
             </div>

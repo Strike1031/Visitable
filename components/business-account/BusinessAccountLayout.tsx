@@ -39,20 +39,20 @@ const businessMenuItems: businessMenuItemType[] = [
   },
   {
     pagePath: '/business-account/details',
-    pageName: 'details',
-    menuItemTitle: 'Business Details',
+    pageName: 'Contact Details',
+    menuItemTitle: 'Contact Details',
     menuItemIcon: <PersonIcon />,
   },
   {
     pagePath: '/business-account/venues',
-    pageName: 'venues',
-    menuItemTitle: 'Our Venues',
+    pageName: 'Accessibility Details',
+    menuItemTitle: 'Accessibility Details',
     menuItemIcon: <StorefrontIcon />,
   },
   {
     pagePath: '/business-account/social',
-    pageName: 'social',
-    menuItemTitle: 'Social Links',
+    pageName: 'Create Sharing Links',
+    menuItemTitle: 'Sharing Links',
     menuItemIcon: <LinkIcon />,
   },
   {
@@ -63,8 +63,8 @@ const businessMenuItems: businessMenuItemType[] = [
   },
   {
     pagePath: '/business-account/messages',
-    pageName: 'messages',
-    menuItemTitle: 'Messages',
+    pageName: 'Recruitment Partners',
+    menuItemTitle: 'Recruitment Partners',
     menuItemIcon: <MailIcon />,
   },
   {

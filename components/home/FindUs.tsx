@@ -14,17 +14,17 @@ export const FindUs: React.FC<FindUsProps> = () => {
       <div className={styles['container']}>
         <Grid container spacing={3}>
           <Grid item sm={12} md={6} className="flex-col flex">
-            <p className="mb-2 md:mb-4 text-2xl md:text-4xl lg:text-5xl">Match on Valyoo. <br />Not just Salary.</p>
-            <p className="text-sm md:text-lg lg:text-xl">Visitable uses matching technology to help you discover a workplace with more.</p>
+            <p className="mb-2 md:mb-4 text-2xl md:text-4xl lg:text-5xl">Find us locally.</p>
+            <p className="text-sm md:text-lg lg:text-xl">Matching people with jobs</p>
             <p className="text-sm md:text-lg lg:text-xl">
-              Find out if your expectations can be matched across the likes of ESOP, s
-              continuous deployment, team social outings, working from home, microservice architecture, language exposure and so much more.
+              Tickable uses your personal preferences to help you discover perfect workplaces. <br/>
+              Find job opportunities that meet your needs with our matching software. We work with companies to help them share accessibility information that's relevant to you. 
             </p>
             {/* <button className={styles['button']}>Read More</button> */}
           </Grid>
           <Grid item sm={12} md={6}>
             <div>
-              <img alt="" className="rounded-3xl" src="glass-logo.webp" />
+              <img alt="" className="rounded-3xl" src="https://assets-global.website-files.com/5ff621612284ed73d44c11f3/5ff621612284ed467c4c182d_5f19a3adb8b71dd520d53699_Blog-featured-images1.png" />
             </div>
           </Grid>
         </Grid>

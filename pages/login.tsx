@@ -170,7 +170,7 @@ export default function Login() {
                   backgroundImage: `url(/Office-space-pic.jpeg)`,
                 }}
               />
-              <div className={loginStyles.loginImageText}></div>
+              <div className={loginStyles.loginImageText}>Helping you find new work opportunities that meet your needs.</div>
             </div>
           </div>
         </div>

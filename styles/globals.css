@@ -53,6 +53,11 @@ a:hover {
     align-items: center;
 }
 
+.bg-primary1 {
+    --tw-bg-opacity: 1;
+    font-family: Poppins;
+    background-color:  #68CBF6!important;
+}
 
 .bg-primary {
     --tw-bg-opacity: 1;

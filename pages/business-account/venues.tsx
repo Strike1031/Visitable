@@ -149,7 +149,7 @@ function BusinessVenues() {
                 setCreateVenue(false)
               }}
             >
-              Back to venues
+              Back to dashboard
             </button>
           </div>
           <CreateVenueForm submitNewVenueData={handleCreateVenue} />
@@ -168,7 +168,7 @@ function BusinessVenues() {
             <div className="md:px-12 flex flex-col">
               <div className="mb-4 flex justify-end">
                 <button className={buttonStyles.toolbarButton} onClick={() => setCreateVenue(true)}>
-                  Add Venue
+                  Add Company
                 </button>
               </div>
               {venuesData.map((venueData, idx) => (

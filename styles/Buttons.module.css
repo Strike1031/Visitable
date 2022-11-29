@@ -1,5 +1,6 @@
 .venueCardButton {
-    background-color: #8b4cbe;
+    /* background-color: #8b4cbe; */
+    background-color: #68CBF6;
     color: white;
     margin-left: 0.4rem;
     height: 2.8rem;
@@ -9,7 +10,8 @@
 }
 
 .venueCardButton:hover {
-    background-color: #aa6ddd;
+    /* background-color: #aa6ddd; */
+    background-color: #79d0d4;
 }
 
 .toolbarButton {

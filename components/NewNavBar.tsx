@@ -55,12 +55,12 @@ export default function NewNavBar(props: propTypes) {
             </IconButton>
           </div>
           <div className='flex'>
-            <img
+            {/* <img
               onClick={() => router.push('/')}
               className={styles.logo}
               src="/logo.png"
               alt="Logo"
-            />
+            /> */}
             <div className="cursor-pointer hidden lg:flex lg:justify-start lg:items-center text-white ml-8" onClick={() => router.push('/venues')}>
               Discover
             </div>
@@ -101,12 +101,12 @@ export default function NewNavBar(props: propTypes) {
             </IconButton>
           </div>
           <div className='flex'>
-            <img
+            {/* <img
               onClick={() => router.push('/')}
               className={styles.logo}
               src="/logo.png"
               alt="Logo"
-              />
+              /> */}
             <div className="cursor-pointer hidden sm:flex sm:justify-start sm:items-center text-white ml-8" onClick={() => router.push('/business-account/venues')}>
               Dashboard
             </div>
@@ -140,18 +140,18 @@ export default function NewNavBar(props: propTypes) {
     return (
       <div className={styles.container}>
         <nav className={styles.navbarContainer}>
-          <img
+          {/* <img
             onClick={() => router.push('/')}
             className={styles.logo}
             src="/logo.png"
             alt="Logo"
-          />
+          /> */}
           <div className="hidden sm:flex sm:justify-between sm:items-center">
             <div className={styles.item} onClick={() => router.push('/')}>
               Home
             </div>
             <div className={styles.item} onClick={() => router.push('/venues')}>
-              Search Roles
+              Personal Users
             </div>
             <div className={styles.item} onClick={() => router.push('/business')}>
               For Companies
