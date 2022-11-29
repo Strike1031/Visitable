@@ -23,7 +23,7 @@ export default function BusinessAccountMenu(props: propTypes) {
   return (
     <div className={containerStyles}>
       <div className='pt-8 pr-6 pl-8 flex justify-between items-center'>
-        {/* <img className='w-full' onClick={() => router.push('/business-account/venues')} src="/logo.png" alt="Logo" /> */}
+        <img className='w-full' onClick={() => router.push('/business-account/venues')} src="/logo.png" alt="Logo" />
         {props.drawerOpen && <div className='sm:hidden ml-4'><IconButton onClick={props.onClickDrawer}><CloseIcon/></IconButton></div>}
 
       </div>

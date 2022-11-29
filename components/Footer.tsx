@@ -21,7 +21,7 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
       <img alt="" src="/wave.svg" style={{ width: '100%', height: '110px', marginTop: '0px' }} />
 
       <div className="vflex-container">
-        {/* <img className={cx('logo')} src="/logo.png" alt="Logo" /> */}
+        <img className={cx('logo')} src="/logo.png" alt="Logo" />
         <Link href="/about" children={<a className={cx('text', 'item')}>About Us</a>} />
         <Link href="/contact" children={<a className={cx('text', 'item')}>Contact Us</a>} />
         <Link
